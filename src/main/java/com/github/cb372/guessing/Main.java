@@ -22,6 +22,7 @@ public final class Main {
      * @throws IOException if we fail to write to a file or read from stdin
      */
     public static void main(String[] args) throws IOException {
+        System.out.println("aaa");
         new Game().run();
     }
 
